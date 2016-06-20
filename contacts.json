@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alex",
+    "lastName": "Amigo",
+    "address": {
+      "country": "USA",
+      "city": "Los Angeles",
+      "street": "Montey ",
+      "houseNumber": 16,
+      "houseSuffix": "a",
+      "postCode": 51456
+    },
+    "phones": [
+      "004569878521",
+      "004524566587"
+    ],
+    "emails": [
+      "amigo@yandex.ru",
+      "amigo@mail.ru"
+    ],
+    "photoPath": "http://some_path_to_image",
+    "birthday": "1973-12-10"
+  },
+  {
+    "id": 2,
+    "firstName": "Kate",
+    "lastName": "Polis",
+    "address": {
+      "country": "Norway",
+      "city": "Strik",
+      "street": "Srormswood",
+      "houseNumber": 135,
+      "houseSuffix": "a",
+      "postCode": 45871
+    },
+    "phones": [
+      "4561234564"
+    ],
+    "emails": [
+      "polis@a.a",
+      "polis@b.b"
+    ],
+    "photoPath": "http://some_path_to_image2",
+    "birthday": "1989-03-21"
+  },
+  {
+    "id": 3,
+    "firstName": "Feodor",
+    "lastName": "Shlyapin",
+    "address": {
+      "country": "USA",
+      "city": "Washington",
+      "street": "15st avenu",
+      "houseNumber": 1532,
+      "houseSuffix": "a",
+      "postCode": 611445
+    },
+    "phones": [
+      "010934474567",
+      "010564145211"
+    ],
+    "emails": [
+      "shalyap@yandex.ru",
+      "shalyap@mail.ru"
+    ],
+    "photoPath": "http://some_path_to_image",
+    "birthday": "1936-10-15"
+  },
+  {
+    "id": 4,
+    "firstName": "Anton",
+    "lastName": "Murzilkin",
+    "address": {
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "street": "Dneprovska naberezhna",
+      "houseNumber": 92,
+      "houseSuffix": "a",
+      "postCode": 44531
+    },
+    "phones": [
+      "+380445691781",
+      "380933214569"
+    ],
+    "emails": [
+      "murz@yandex.ru",
+      "murz@mail.ru"
+    ],
+    "photoPath": "http://some_path_to_image",
+    "birthday": "1983-01-10"
+  }
+]
