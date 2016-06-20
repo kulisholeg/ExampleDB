@@ -22,9 +22,9 @@ public class UserDAO implements Params {
 
     private static final String DELETE_SQL = "DELETE FROM adressbook.user WHERE id = ?";
 
-    private static final String ADD_SQL = "INSERT INTO adressbook.user  (name ,lastName, photoPath, birthday)  VALUES (?, ?, ?, ?)";
+    private static final String ADD_SQL = "INSERT INTO adressbook.user  (user_firstName ,user_lastName,  birthday)  VALUES (?, ?, ?)";
 
-    private static final String UPDATE_SQL = "UPDATE adressbook.user SET name=? , birthday=? WHERE id=?";
+    private static final String UPDATE_SQL = "UPDATE adressbook.user SET user_firstName=? , birthday=? WHERE id=?";
 
     private static final String GET_ONE_SQL = "SELECT * FROM adressbook.user WHERE id=?";
 
@@ -108,8 +108,8 @@ public class UserDAO implements Params {
             PreparedStatement ps = conn.prepareStatement(ADD_SQL);
             ps.setString(1, user.getName());
             ps.setString(2, user.getLastName());
-            ps.setString(3, user.getPhotoPath());
-            ps.setDate(4,new Date(user.getBirthday().getTime()));
+           // ps.setString(3, user.getPhotoPath());
+            ps.setDate(3,new Date(user.getBirthday().getTime()));
 
             ps.executeUpdate();
         } finally {

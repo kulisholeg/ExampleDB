@@ -20,9 +20,7 @@ public class AdressDAO {
             "PRIMARY KEY (address_id)\n" +
             ");";
     private static final String GET_BY_ID = "SELECT * FROM adressbook.user WHERE iduser=?";
-    private static final String ADD_SQL = "INSERT INTO adressbook.user " +
-            "(country, city, street,houseNumber,houseSuffix,postCode)" +
-            " VALUE (?,?,?,?,?,?) ";
+    private static final String ADD_SQL = "INSERT INTO adressbook.address (country, city, street,house_number,house_suffix,post_code) VALUE (?,?,?,?,?,?) ";
 
 
     public void add (Adress adress) throws SQLException {

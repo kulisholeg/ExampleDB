@@ -6,7 +6,7 @@ import java.util.Date;
 public class User {
 
     private Integer id;
-    private String firstname;
+    private String firstName;
     private String lastName;
     private String photoPath;
 
@@ -29,11 +29,11 @@ public class User {
     }
 
     public String getName() {
-        return firstname;
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.firstname = name;
+    public void setName(String firstname) {
+        this.firstName = firstname;
     }
 
     public Date getBirthday() {
@@ -53,7 +53,7 @@ public class User {
     }
 
     public void getInfo(){
-        System.out.printf("Person info [  " + " Name: " + firstname + ", Last Name: " + lastName + ", birthday: " +birthday +"   ]"+"\n");
+        System.out.printf("Person info [  " + " Name: " + firstName + ", Last Name: " + lastName + ", birthday: " +birthday +"   ]"+"\n");
     }
 
 }
