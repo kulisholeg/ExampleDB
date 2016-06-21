@@ -29,7 +29,7 @@
     "address": {
       "country": "Norway",
       "city": "Strik",
-      "street": "Srormswood",
+      "street": "Stormswood",
       "houseNumber": 135,
       "houseSuffix": "a",
       "postCode": 45871
@@ -51,7 +51,7 @@
     "address": {
       "country": "USA",
       "city": "Washington",
-      "street": "15st avenu",
+      "street": "Fifth avenu",
       "houseNumber": 1532,
       "houseSuffix": "a",
       "postCode": 611445

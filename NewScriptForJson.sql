@@ -6,14 +6,16 @@
 
 CREATE TABLE address(
 address_id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
-country VARCHAR(30) NOT NULL,
-city VARCHAR(20) NOT NULL,
-street VARCHAR(250) NOT NULL,
-house_number INTEGER NOT NULL,
-house_suffix VARCHAR(20) NOT NULL,
-appartment INTEGER NOT NULL,
-post_code INTEGER NOT NULL,
-PRIMARY KEY (address_id)
+country VARCHAR(30),
+city VARCHAR(20),
+street VARCHAR(100),
+house_number INTEGER ,
+house_suffix VARCHAR(20),
+appartment INTEGER,
+post_code INTEGER,
+PRIMARY KEY (address_id),
+  FOREIGN KEY (user_id) REFERENCES user(user_id)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE user(

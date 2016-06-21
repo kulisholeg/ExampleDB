@@ -3,9 +3,9 @@ package utils;
 
 //������ � ���� ��������� ���������
 public interface Params {
-    String NAME = "name";
+    String NAME = "user_firstName";
     String BIRTHDAY = "birthday";
     String AGE = "age";
     String DATE = "date";
-    String ID = "id";
+    String ID = "user_id";
 }
