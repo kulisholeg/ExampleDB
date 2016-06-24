@@ -72,6 +72,7 @@ public class UserDAO implements Params {
                 User user = new User();
                 user.setId(rs.getInt(ID));
                 user.setName(rs.getString(NAME));
+                user.setLastName(rs.getString(LASTNAME));
                 user.setBirthday(rs.getDate(BIRTHDAY));
                 //добовляем юзеров в лист
                 users.add(user);
@@ -94,6 +95,7 @@ public class UserDAO implements Params {
             while (rs.next()) {
                 user.setId(rs.getInt(ID));
                 user.setName(rs.getString(NAME));
+                user.setLastName(rs.getString(LASTNAME));
             }
         } finally {
             ConnectionUtils.close(conn);
@@ -108,7 +110,8 @@ public class UserDAO implements Params {
             PreparedStatement ps = conn.prepareStatement(ADD_SQL);
             ps.setString(1, user.getName());
             ps.setString(2, user.getLastName());
-           // ps.setString(3, user.getPhotoPath());
+           // ps.setString(3
+            // , user.getPhotoPath());
             ps.setDate(3,new Date(user.getBirthday().getTime()));
 
             ps.executeUpdate();

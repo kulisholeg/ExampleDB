@@ -19,7 +19,7 @@ public class AdressDAO {
             "post_code INTEGER NOT NULL,\n" +
             "PRIMARY KEY (address_id)\n" +
             ");";
-    private static final String GET_BY_ID = "SELECT * FROM adressbook.user WHERE user_id=?";
+    private static final String GET_BY_ID = "SELECT * FROM adressbook.address WHERE address_id=?";
     private static final String ADD_SQL = "INSERT INTO adressbook.address (country, city, street,house_number,house_suffix,post_code) VALUE (?,?,?,?,?,?) ";
 
 
@@ -51,9 +51,9 @@ public class AdressDAO {
                 adress.setCountry(rs.getString("country"));
                 adress.setCity(rs.getString("city"));
                 adress.setStreet(rs.getString("street"));
-                adress.setHouseNumber(rs.getLong("houseNumber"));
-                adress.setHouseSuffix(rs.getString("houseSuffix"));
-                adress.setPostCode(rs.getLong("postCode"));
+                adress.setHouseNumber(rs.getLong("house_number"));
+                adress.setHouseSuffix(rs.getString("house_suffix"));
+                adress.setPostCode(rs.getLong("post_code"));
             }
         } finally {
             ConnectionUtils.close(conn);
