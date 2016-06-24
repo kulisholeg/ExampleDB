@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb38f22f-8b8a-4325-9985-77769e462535" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/AdressDAO.class" afterPath="$PROJECT_DIR$/target/classes/dao/AdressDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/Params.class" afterPath="$PROJECT_DIR$/target/classes/utils/Params.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewScriptForJson.sql" afterPath="$PROJECT_DIR$/NewScriptForJson.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.json" afterPath="$PROJECT_DIR$/contacts.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/dao/AdressDAO.java" afterPath="$PROJECT_DIR$/src/main/dao/AdressDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/utils/Params.java" afterPath="$PROJECT_DIR$/src/main/utils/Params.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/model/Adress.java" afterPath="$PROJECT_DIR$/src/main/model/Adress.java" />
     </list>
     <ignored path="ExampleBD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +75,8 @@
       <file leaf-file-name="AdressDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/dao/AdressDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="218">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding>
                 <marker date="1466499632461" expanded="true" signature="709:734" ph="SELECT * FRO... user" />
                 <marker date="1466499632461" expanded="true" signature="709:754" ph="SELECT * FRO... contact" />
@@ -99,18 +90,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,6 +132,19 @@
             <state relative-caret-position="901">
               <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/model/Adress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+              <folding>
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -260,6 +254,7 @@
         <option value="$PROJECT_DIR$/src/main/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/utils/Params.java" />
         <option value="$PROJECT_DIR$/src/main/dao/AdressDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/model/Adress.java" />
       </list>
     </option>
   </component>
@@ -331,6 +326,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ExampleBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -830,7 +865,7 @@
       <workItem from="1466426988473" duration="1080000" />
       <workItem from="1466431547812" duration="8813000" />
       <workItem from="1466440753630" duration="9757000" />
-      <workItem from="1466459117162" duration="13940000" />
+      <workItem from="1466459117162" duration="15681000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project, where try to solve question with adding to DB info from JSON file. In result I have exeption">
       <created>1466462654678</created>
@@ -846,11 +881,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466467125812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Last refresh">
+      <created>1466500236654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1466500236654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45809000" />
+    <option name="totallyTimeSpent" value="47550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -930,7 +972,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new project, where try to solve question with adding to DB info from JSON file. In result I have exeption" />
     <MESSAGE value="solve some errors in MySql syntaxis" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve some errors in MySql syntaxis" />
+    <MESSAGE value="Last refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last refresh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,21 +1023,6 @@
     <entry file="dbDummy://dbtable:/397547d6/3df48cb4-8a5a-455c-bea2-c13fa2928051/adressbook.user" />
     <entry file="dbDummy://dbtable:/397547d6/3df48cb4-8a5a-455c-bea2-c13fa2928051/adressbook.user" />
     <entry file="dbDummy://dbtable:/397547d6/3df48cb4-8a5a-455c-bea2-c13fa2928051/adressbook.user" />
-    <entry file="file://$PROJECT_DIR$/src/main/model/Adress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-          <folding>
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3df48cb4-8a5a-455c-bea2-c13fa2928051/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
@@ -1201,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1242,18 +1262,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        <state relative-caret-position="182">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/Adress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dao/AdressDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
             <marker date="1466499632461" expanded="true" signature="709:734" ph="SELECT * FRO... user" />
             <marker date="1466499632461" expanded="true" signature="709:754" ph="SELECT * FRO... contact" />

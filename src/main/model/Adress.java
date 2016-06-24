@@ -78,7 +78,7 @@ public class Adress {
     }
 
     public void getInfo(){
-        System.out.printf("City " + city + " adress " + adress +"\n");
+        System.out.printf("City " + city + ", adress " + adress +"\n");
     }
 
 }
